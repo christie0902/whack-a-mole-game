@@ -69,6 +69,7 @@ button.addEventListener("click", (e) => {
     finalScreen.style.display = "none";
     timeDisplay.textContent = "Start!"
     score = 0;
+    scoreDisplay.textContent = "0";
     peep();
     
       let intervalID = setInterval (() => {
