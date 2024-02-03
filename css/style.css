@@ -52,7 +52,7 @@ h3 {
 .score {
     font-size: 3rem;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .hole {
@@ -65,7 +65,7 @@ h3 {
 .hole-img {
     width: 70%;
     height: 100%;
-    background: url('hole.png');
+    background: url('../img/hole.png');
     background-position: bottom center;
     background-repeat: no-repeat;
   background-size: contain;
@@ -73,13 +73,12 @@ h3 {
     bottom: 0;
     left: 15%;
     z-index: 1;
-    object-fit: contain;
 }
  
 .mole {
     width: 50%;
     height: 50%;
-    background: url('mole.png');
+    background: url('../img/mole.png');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain;
