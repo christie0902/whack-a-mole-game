@@ -93,3 +93,22 @@ h3 {
 .hole.active .mole {
     top: 3.75rem;
 }
+
+.game-time {
+    color: rgb(230, 252, 31);
+}
+
+.finalScreen {
+    position: absolute;
+    height: 400px;
+    width: 800px;
+    background-color:beige;
+    top: 50vh;
+    left: 30vw;
+    color: rgb(0, 0, 0);
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    display: none;
+}
